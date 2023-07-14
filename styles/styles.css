@@ -21,9 +21,9 @@ header {
 
 .logo-and-links {
   display: flex;
+  align-items: center;
   font-size: 18px;
   color: #E5E7EB;
-  align-items: center;
 }
 
 .logo {
@@ -36,8 +36,8 @@ header {
 .header-links {
   list-style-type: none;
   display: flex;
-  margin-left: auto;
   column-gap: 20px;
+  margin-left: auto;
 }
 
 .header-links a {
@@ -46,10 +46,10 @@ header {
 }
 
 .second-part-header {
-  font-size: 18px;
-  color: #E5E7EB;
   display: flex;
   column-gap: 30px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 h1 {
@@ -60,9 +60,9 @@ h1 {
 }
 
 .presentation-and-sign-up {
-  width: 50%;
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .button-sign-up {
@@ -93,20 +93,19 @@ main {
 }
 
 h2 {
-  font-size: 36px;
-  font-weight: bold;
-  color: #1F2937;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
 }
 
 .images-and-captions {
   display: flex;
-  padding: 0px 10vw 15vh 10vw;
-  /*padding: 0px 100px 100px 200px;*/
   column-gap: 30px;
   flex-wrap: wrap;
+  padding: 0px 10vw 15vh 10vw;
 }
 
 .block {
@@ -133,7 +132,6 @@ div .image {
   flex-direction: column;
   background-color: #E5E7EB;
   padding: 10vh 10vw 10vh 10vw;
-  /*padding: 80px 100px 60px 250px;*/
 }
 
 .phrase {
@@ -144,27 +142,26 @@ div .image {
 }
 
 .author {
-  font-size: 24px;
-  font-weight: bold;
   display: flex;
   justify-content: flex-end;
   padding-right: 30px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .section-call-to-action {
   display: flex;
   align-items: center;
   padding: 10vh 10vw 10vh 10vw;
-  /*padding: 100px 100px 100px 70px;*/
 }
 
 .call-to-action {
   display: flex;
   flex-grow: 1;
-  background-color: #3882F6;
-  border-radius: 15px;
   justify-content: center;
   align-items: center;
+  background-color: #3882F6;
+  border-radius: 15px;
   padding-right: 150px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -172,11 +169,11 @@ div .image {
 }
 
 .title-and-text {
+  display: flex;
+  flex-direction: column;
   margin-right: auto;
   padding-left: 120px;
   color: #E5E7EB;
-  display: flex;
-  flex-direction: column;
 }
 
 h3 {
@@ -200,12 +197,12 @@ h3 {
 }
 
 footer {
-  background-color: #1F2937;
-  padding-top: 25px;
-  padding-bottom: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1F2937;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .footer-text {
